@@ -2,7 +2,7 @@ package com.example.shoppingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,9 +14,9 @@ public class Search_Item extends AppCompatActivity {
     ImageButton cbtn;
     Button uploadpresbtn;
     @Override
-    protected void onCreate(Bundle savedInstanceState) 
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_search__item)
+    protected void onCreate(Bundle savedInstanceState);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_search__item);
 
 
         btn = findViewById(R.id.bandbtn);
@@ -33,7 +33,7 @@ public class Search_Item extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(Search_Item.this,My_Cart.class);
-                startActivity(i)
+                startActivity(i);
             }
         });
 /*
